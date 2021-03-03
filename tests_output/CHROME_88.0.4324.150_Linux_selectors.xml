@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="selectors"
+    errors="2" failures="0" hostname="" id="" package="selectors" skipped="0"
+    tests="1" time="15.04" timestamp="">
+  
+    <testcase name="css and xpath" classname="selectors" time="15.04" assertions="0">
+    <error message="An error occurred while running .clearValue() command on &lt;#text-input&gt;: SyntaxError: Failed to execute &#39;evaluate&#39; on &#39;Document&#39;: The string &#39;#text-input&#39; is not a valid XPath expression.,  (Session info: chrome=88.0.4324.150),  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Linux 5.4.72-microsoft-standard-WSL2 x86_64); invalid selector: Unable to locate an element with the xpath expression #text-input because of the following error:" type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .clearValue() command on &lt;#text-input&gt;: SyntaxError: Failed to execute &#39;evaluate&#39; on &#39;Document&#39;: The string &#39;#text-input&#39; is not a valid XPath expression.,  (Session info: chrome=88.0.4324.150),  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Linux 5.4.72-microsoft-standard-WSL2 x86_64); invalid selector: Unable to locate an element with the xpath expression #text-input because of the following error:
+    at ClearValue.noSuchElementError (/mnt/c/Users/SeijT/dev/nightwatch-projects/nightwatch-course/node_modules/nightwatch/lib/element/command.js:399:12)
+    at Object.errorHandler (/mnt/c/Users/SeijT/dev/nightwatch-projects/nightwatch-course/node_modules/nightwatch/lib/api/element-commands/_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (/mnt/c/Users/SeijT/dev/nightwatch-projects/nightwatch-course/node_modules/nightwatch/lib/utils/periodic-promise.js:64:29)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .setValue() command on &lt;#text-input&gt;: SyntaxError: Failed to execute &#39;evaluate&#39; on &#39;Document&#39;: The string &#39;#text-input&#39; is not a valid XPath expression.,  (Session info: chrome=88.0.4324.150),  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Linux 5.4.72-microsoft-standard-WSL2 x86_64); invalid selector: Unable to locate an element with the xpath expression #text-input because of the following error:
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;invalid selector: Unable to locate an element with the xpath expression #text-input because of the following error:&#34;,&#34;error&#34;:[&#34;SyntaxError: Failed to execute &#39;evaluate&#39; on &#39;Document&#39;: The string &#39;#text-input&#39; is not a valid XPath expression.&#34;,&#34;  (Session info: chrome=88.0.4324.150)&#34;,&#34;  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Linux 5.4.72-microsoft-standard-WSL2 x86_64)&#34;]},&#34;errorStatus&#34;:32,&#34;error&#34;:&#34;The supplied argument was an invalid selector (e.g. XPath/CSS). – invalid selector: Unable to locate an element with the...&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (node:internal/process/task_queues:94:5)
+  NoSuchElementError: An error occurred while running .clearValue() command on &lt;#text-input&gt;: SyntaxError: Failed to execute &#39;evaluate&#39; on &#39;Document&#39;: The string &#39;#text-input&#39; is not a valid XPath expression.,  (Session info: chrome=88.0.4324.150),  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Linux 5.4.72-microsoft-standard-WSL2 x86_64); invalid selector: Unable to locate an element with the xpath expression #text-input because of the following error:
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;invalid selector: Unable to locate an element with the xpath expression #text-input because of the following error:&#34;,&#34;error&#34;:[&#34;SyntaxError: Failed to execute &#39;evaluate&#39; on &#39;Document&#39;: The string &#39;#text-input&#39; is not a valid XPath expression.&#34;,&#34;  (Session info: chrome=88.0.4324.150)&#34;,&#34;  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Linux 5.4.72-microsoft-standard-WSL2 x86_64)&#34;]},&#34;errorStatus&#34;:32,&#34;error&#34;:&#34;The supplied argument was an invalid selector (e.g. XPath/CSS). – invalid selector: Unable to locate an element with the...&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
