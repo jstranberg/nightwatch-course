@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="exchange"
+    errors="0" failures="0" hostname="" id="" package="exchange" skipped="0"
+    tests="5" time="7.240" timestamp="">
+  
+    <testcase name="user login" classname="exchange" time="4.763" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check Folders tab" classname="exchange" time="0.6100" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check classes tab" classname="exchange" time="1.256" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Premade bulbs" classname="exchange" time="0.2970" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Professional learning" classname="exchange" time="0.3140" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        ReferenceError: assert is not defined
+       at Object.Create a bulb (/mnt/c/Users/SeijT/dev/nightwatch-projects/nightwatch-course/Tests/selectors.js:24:17)
+       at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
